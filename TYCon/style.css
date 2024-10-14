@@ -13,7 +13,8 @@ body {
 }
 
 a {
-    color: #444;
+    color: purple;
+    /* color: #444; */
     text-decoration: none;
 }
 
@@ -142,6 +143,9 @@ button:hover {
     color: #666;
 }
 
+.bold-text {
+	font-weight: bold;
+}
 /* Footer */
 footer {
     background-color: #1e1e1e;
