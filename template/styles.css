@@ -1,0 +1,103 @@
+/* styles.css */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f3e9;
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9e2d2;
+    border-radius: 10px 10px 0 0;
+}
+
+.header h1 {
+    font-size: 2em;
+    color: #c04d39;
+}
+
+.header p {
+    color: #666;
+    font-size: 1.2em;
+}
+
+.content {
+    padding: 20px;
+}
+
+.event-details h2 {
+    font-size: 1.8em;
+    color: #c04d39;
+    margin-bottom: 10px;
+}
+
+.event-details p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+.event-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.event-details li {
+    font-size: 1em;
+    padding: 5px 0;
+}
+
+.rsvp h3 {
+    font-size: 1.5em;
+    color: #c04d39;
+}
+
+.rsvp p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #c04d39;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #a83b2e;
+}
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #f9e2d2;
+    border-radius: 0 0 10px 10px;
+    margin-top: 20px;
+}
+
+.footer p {
+    font-size: 0.9em;
+    color: #555;
+}
